@@ -4,6 +4,8 @@
 
 This project explores the application of **Object-Based Image Analysis (OBIA)** and satellite remote sensing techniques for identifying and extracting water bodies along the River Niger in Onitsha, Anambra State, Nigeria.
 
+![River Niger Water-Body Segmentation](River_Niger_segmentation.png)
+
 Using Sentinel-2 Level-2A satellite imagery acquired on **5 February 2026**, the project combines the Normalized Difference Water Index (NDWI), Otsu thresholding and Felzenszwalb image segmentation to classify image objects into water and non-water categories.
 
 Unlike traditional pixel-based classification, which evaluates individual pixels independently, OBIA groups neighbouring pixels into meaningful image segments and classifies these segments based on their spectral characteristics.
